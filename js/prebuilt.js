@@ -1,7 +1,7 @@
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
     e.preventDefault();
-    $("#sidebar-wrapper").toggleClass("active");
+    $("#sidebar-wrapper").removeClass("active");
 });
 // Opens the sidebar menu
 $("#menu-toggle").click(function(e) {
@@ -60,10 +60,7 @@ $(document).scroll(function() {
 $(function() {
     $('a[href="#search"]').on('click', function(event) {
         event.preventDefault();
-        $("#menu-close").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
+        $("#menu-close").click();
         $('#search').addClass('open');
         $('#search > form > input[type="search"]').focus();
     });
@@ -74,8 +71,6 @@ $(function() {
         }
     });
 
-
-    //Do not include! This prevents the form from submitting for DEMO purposes only!
     $('form').submit(function(event) {
         if (!document.getElementById('searchbox').value) {
             console.log("Needs value");
