@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Travel Offers - Code4CT</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/code4ct-travel.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="index.html#top" onclick=$( "#menu-close").click();>Code4CT Travel</a>
+            </li>
+            <li>
+                <a href="index.html#top" onclick=$( "#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="offers.html" onclick=$( "#menu-close").click();>Travel Offers</a>
+            </li>
+            <li>
+                <a href="index.html#about" onclick=$( "#menu-close").click();>About</a>
+            </li>
+            <li>
+                <a href="index.html#contact" onclick=$( "#menu-close").click();>Contact</a>
+            </li>
+            <li>
+                <a href="#search">Search</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- About -->
+    <section id="intro-offers" class="intro-offers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Travel Offers</h2>
+                    <p id="intro-line" class="lead">The best deals from around the world to get you around the world</p>
+                    <a id="searchButton" href="#search" class="btn btn-light">Search</a>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Offers Content -->
+    <section>
+        <div id="offers-area" class="container-fluid">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-responsive" src="img/02.jpeg">
+
+                    </div>
+                    <!-- card image -->
+
+                    <div class="card-content">
+                        <span class="card-title">Material Cards</span>
+                        <button type="button" class="btn btn-custom pull-right" aria-label="Left Align">
+                            <i class="fa fa-share-alt"></i>
+                        </button>
+                    </div>
+                    <!-- card content -->
+                    <div class="card-action">
+                        <a id="show" target="new_blank">Read More</a>
+                        <a href="#" target="new_blank">Book Now</a>
+                    </div>
+                    <!-- card actions -->
+                    <div class="card-reveal">
+                        <span class="card-title">Card Title</span>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                    </div>
+                    <!-- card reveal -->
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <nav aria-label="...">
+        <ul class="pager">
+            <li><a onclick="previous()"><i class="fa fa-arrow-left"></i></a></li>
+            <li><a onclick="next()"><i class="fa fa-arrow-right"></i></a></li>
+        </ul>
+    </nav>
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Code4CT Travel</strong>
+                    </h4>
+                    <p>1st Floor Spire House, Tannery Park
+                        <br>Belmont Road
+                        <br>Rondebosch, 7700</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (+27) 021 685 0991</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:info@code4ct.com">info@code4ct.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com/code4ct" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/code4ct" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCbx7fXWy-LiEYvFceuWxOsg" target="_blank"><i class="fa fa-youtube fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/code-for-cape-town?trk=tyah&trkIno=clickedVertical%3Acompany%2Cidx%3A2-1-2%2CtarId%3A1434793720966%2Ctas%3Acode+for+ca" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Created by
+                        <br> Your Name 2016</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+
+    <div id="search">
+        <button type="button" class="close">×</button>
+        <form>
+            <input name="search" id="searchbox" type="search" value="" placeholder="Where would you like to go?" />
+            <button type="submit" class="btn btn-light btn-lg">Discover</button>
+        </form>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Template JS -->
+    <script src="js/prebuilt.js"></script>
+
+    <!-- Custom JavaScript for each lesson -->
+    <script src="js/lesson2.js"></script>
+    <script src="js/lesson3.js"></script>
+
+</body>
+
+</html>
