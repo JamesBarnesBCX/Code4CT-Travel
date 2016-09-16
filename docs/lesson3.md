@@ -1,4 +1,4 @@
-# Module 3 - Lesson 2
+# Module 3 - Lesson 3
 
 ## Task
 
