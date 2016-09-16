@@ -9,5 +9,6 @@ Code4CT Travel Template for teaching of HTML, CSS and JS.
 - [Lesson 1](docs/lesson1.md)
 - [Lesson 2](docs/lesson2.md)
 - [Lesson 3](docs/lesson3.md)
+- [Lesson 4](docs/lesson4.md)
 
 Created By James Barnes
